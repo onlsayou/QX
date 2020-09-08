@@ -65,28 +65,28 @@ var Key = ''; //如果使用JSBox或Node.js, 单引号内自行填写您抓取�
 
 var KEY = Key?Key:$nobyda.read("CookieJD")
 async function all() {//签到模块相互独立,您可注释某一行以禁用某个接口.
-  await JingDongBean(stop); //京东京豆
-  await JingRongBean(stop); //金融京豆
-  await JingRongSteel(stop); //金融钢镚
-  await JingDongTurn(stop); //京东转盘
-  await JRDoubleSign(stop); //金融双签
-  await JDGroceryStore(stop); //京东超市
-  await JingDongClocks(stop); //京东钟表馆
-  await JingDongPet(stop); //京东宠物馆
-  await JDFlashSale(stop); //京东闪购
-  await JingDongBook(stop); //京东图书
-  await JDSecondhand(stop); //京东拍拍二手
-  await JingDMakeup(stop); //京东美妆馆
-  await JingDongWomen(stop); //京东女装馆
-  await JingDongCash(stop); //京东现金红包
-  await JingDongShoes(stop); //京东鞋靴馆
+  //await JingDongBean(stop); //京东京豆
+  //await JingRongBean(stop); //金融京豆
+  //await JingRongSteel(stop); //金融钢镚
+  //await JingDongTurn(stop); //京东转盘
+  //await JRDoubleSign(stop); //金融双签
+  //await JDGroceryStore(stop); //京东超市
+  //await JingDongClocks(stop); //京东钟表馆
+  //await JingDongPet(stop); //京东宠物馆
+  //await JDFlashSale(stop); //京东闪购
+  //await JingDongBook(stop); //京东图书
+  //await JDSecondhand(stop); //京东拍拍二手
+  //await JingDMakeup(stop); //京东美妆馆
+  //await JingDongWomen(stop); //京东女装馆
+  //await JingDongCash(stop); //京东现金红包
+  //await JingDongShoes(stop); //京东鞋靴馆
   //await JingRSeeAds(stop); //金融看广告
-  await JingRongGame(stop); //金融游戏大厅
-  await JingDongLive(stop); //京东智能生活馆
-  await JingDongClean(stop); //京东清洁馆
-  await JDPersonalCare(stop); //京东个人护理馆
-  await JingDongPrize(stop); //京东抽大奖
-  await JingDongShake(stop); //京东摇一摇
+  //await JingRongGame(stop); //金融游戏大厅
+  //await JingDongLive(stop); //京东智能生活馆
+  //await JingDongClean(stop); //京东清洁馆
+  //await JDPersonalCare(stop); //京东个人护理馆
+  //await JingDongPrize(stop); //京东抽大奖
+  //await JingDongShake(stop); //京东摇一摇
   await JingDongBtupdate(stop); //京东白条每日提额
 
   await TotalSteel(); //总钢镚查询
