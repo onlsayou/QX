@@ -154,11 +154,11 @@ function notify() {
       var Tedu = merge.JDBtupdate.Edu ? merge.JDBtupdate.Edu + "元白条" : ""
       var TCash = merge.JDCash.Cash ? merge.JDCash.Cash + "红包," : ""    
       var Tbsc = Tbean ? "\n" : TSteel ? "\n" : TCash ? "\n" : Tedu ? "\n" : "获取失败\n"
-      var one = "【京东签到】:  成功" + success + "个, 失败: " + fail + "个\n"
+      var one = "【白条提额】:  成功" + success + "个, 失败: " + fail + "个\n"
       var two = "【签到总计】:  " + Tbean + TSteel + TCash + Tedu +Tbsc
       var three = "【账号总计】:  " + beans + Steel + Cash + Edu +bsc
       var four = "【左滑 '查看' 以显示签到详情】\n"
-      $nobyda.notify("", "", one + two + three + four + notify);
+      $nobyda.notify("", "", one + three + four + notify);
       resolve('done')
     } catch (eor) {
       $nobyda.notify("通知模块 " + eor.name + "‼️", JSON.stringify(eor), eor.message)
