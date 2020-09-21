@@ -29,7 +29,7 @@ let jdNotify = $.getdata('jdFruitNotify');
 let shareCodes = [ // 这个列表填入你要助力的好友的shareCode
   '7ef3c50f3a9b40bfa55dc8eae4fc414e',
   'c6d8683c853d4e02944cae013e3de4bb',
-  '6fbd26cc27ac44d6a7fed34092453f77',
+  '11705719f6e34c6a95913acc5d23d640',
   '61ff5c624949454aa88561f2cd721bf6',
 ]
 // 添加box功能
